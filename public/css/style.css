@@ -110,6 +110,7 @@ p {
     position: relative;
     overflow: hidden;
     transition: background-color 0.3s ease, color 0.3s ease;
+    border-color: none;
 }
 
 .button:before {
@@ -750,7 +751,6 @@ img {
     top: 4px;
     width: 31px;
 }
-
 
 @media only screen and (max-width: 768px) {
     .main-content {

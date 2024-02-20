@@ -29,7 +29,7 @@
                         <input type="password" class="input-field" placeholder="Repeat Password">
                     </div>
                     <div class="warning-message" id="passwordMismatch">Passwords do not match.</div>
-                    <div class="highlight">Submit</div>
+                    <button class="highlight">Submit</button>
                 </article>
             </section>
 

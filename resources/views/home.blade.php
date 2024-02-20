@@ -41,7 +41,9 @@
             <p>Unlock valuable insights on effective parenting strategies, ensuring a
                 harmonious and joyful family atmosphere through expert advice and thoughtful
                 guidance.</p>
-            <a href="#" class="button">More Info</a>
+            <button class="button">
+                Submit
+            </button>
         </div>
 
         <div class="flower"></div>
