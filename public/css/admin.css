@@ -20,6 +20,7 @@
     color: white;
     font: 700 48px/1.45 "Poppins", Helvetica, Arial, serif;
     width: 100%;
+    margin-bottom: -20px;
 }
 .content_box {
     display: flex;
@@ -86,6 +87,7 @@
     margin-left: 490px;
     top: 0;
     position: absolute;
+    margin-bottom: -50px;
 }
 
 .subtitle2 textarea.input-field::placeholder {
@@ -102,30 +104,14 @@
     bottom: 66px;
     color: #e9916c;
     font: 300 15px/1.2 "Inter", Helvetica, Arial, serif;
-    height: 100px;
+    height: 80px;
+    width: 120px;
     left: 962px;
-    padding: 89px 105px 58px 105px;
     position: absolute;
     right: 0;
     top: 0;
     background-color: #fff;
 }
-
-.subtitle36 {
-    border-radius: 8px 8px 8px 8px;
-    bottom: 66px;
-    color: #e9916c;
-    font: 300 15px/1.2 "Inter", Helvetica, Arial, serif;
-    height: 100px;
-    left: 962px;
-    padding: 89px 120px 89px 120px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: #fff;
-}
-
-
 
 .upload-label {
     display: block;
@@ -146,16 +132,66 @@
     cursor: pointer;
 }
 
+.subtitle36 {
+    border-radius: 8px 8px 8px 8px;
+    bottom: 66px;
+    color: #e9916c;
+    font: 300 15px/1.2 "Inter", Helvetica, Arial, serif;
+    height: 60px;
+    left: 962px;
+    padding: 89px 80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+}
+
+.subtitle39 {
+    border-radius: 8px 8px 8px 8px;
+    bottom: 66px;
+    color: #e9916c;
+    font: 300 15px/1.2 "Inter", Helvetica, Arial, serif;
+    height: 120px;
+    width: 273px;
+    left: 962px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+}
+
+.upload-label4 {
+    display: block;
+    padding: 10px;
+    border: 2px solid #e9916c;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    margin: 45px;
+}
+
+.image-input4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
 .subtitle4 textarea.input-field {
     border: none;
     outline: none;
     font-size: 15px;
     border-radius: 8px;
     border: 1px solid #ffffff;
-    padding: 10px 270px 70px 10px;
+    padding: 10px 286px 70px 12px;
     font: 300 15px/1.2 "Inter", Helvetica, Arial, serif;
+    margin-top: -110px;
     margin-left: 490px;
-    margin-top: -120px;
+    height: 30px;
+    width: 148px;
     position: absolute;
 }
 
@@ -165,6 +201,29 @@
 }
 
 .subtitle4 textarea.input-field:focus {
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 5px rgba(233, 145, 108, 0.5);
+}
+
+.subtitle41 textarea.input-field {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    padding: 10px 286px 70px 12px;
+    font: 300 15px/1.2 "Inter", Helvetica, Arial, serif;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.subtitle41 textarea.input-field::placeholder {
+    color: #e9916c;
+    opacity: 0.7;
+    margin-top: -160px;
+}
+
+.subtitle41 textarea.input-field:focus {
     border: 1px solid #ffffff;
     box-shadow: 0 0 5px rgba(233, 145, 108, 0.5);
 }
@@ -290,6 +349,29 @@
     border: 1px solid #ffffff;
     box-shadow: 0 0 5px rgba(233, 145, 108, 0.5);
 }
+
+.subtitle81 input.input-field {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    position: absolute;
+    border: 1px solid #ffffff;
+    padding: 10px 270px 12px 12px;
+    margin-left: 480px;
+    margin-top: 98px;
+    font: 300 15px/1.2 "Inter", Helvetica, Arial, serif;
+}
+
+.subtitle81 input.input-field::placeholder {
+    color: #e9916c;
+    opacity: 0.7;
+}
+
+.subtitle81 input.input-field:focus {
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 5px rgba(233, 145, 108, 0.5);
+}
 .rect5 {
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -348,18 +430,27 @@
     top: 0;
     width: 278px;
 }
-.subtitle10 {
-    border-radius: 8px 8px 8px 8px;
-    bottom: 210px;
-    color: #e9916c;
-    font: 300 20px/1.2 "Inter", Helvetica, Arial, serif;
-    height: 53px;
-    left: 0;
-    padding: 15px 329px 14px 18px;
-    position: absolute;
+.subtitle10 input.input-field {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    padding: 10px 270px 12px 12px;
     right: 756px;
     top: 63px;
-    width: 484px;
+    margin-top: 10px;
+    font: 300 15px/1.2 "Inter", Helvetica, Arial, serif;
+}
+
+.subtitle10 input.input-field::placeholder {
+    color: #e9916c;
+    opacity: 0.7;
+}
+
+.subtitle10 input.input-field:focus {
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 5px rgba(233, 145, 108, 0.5);
 }
 .subtitle11 {
     border-radius: 8px 8px 8px 8px;
@@ -379,33 +470,82 @@
     color: #e9916c;
     font: 300 20px/1.2 "Inter", Helvetica, Arial, serif;
     height: 263px;
-    left: 495px;
+    left: 470px;
     padding: 15px 361px 224px 18px;
     position: absolute;
+    top: -35px;
+    width: 56px;
+}
+
+.subtitle12 textarea.input-field {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    margin-top: 20px;
+    padding: 10px 290px 130px 10px;
+    font: 300 15px/1.2 "Inter", Helvetica, Arial, serif;
+    right: 289px;
     top: 0;
-    width: 456px;
+    width: 155px;
 }
-.subtitle13 {
-    border-radius: 8px 8px 8px 8px;
-    bottom: 0;
+
+.subtitle12 textarea.input-field::placeholder {
     color: #e9916c;
-    font: 300 20px/1.2 "Inter", Helvetica, Arial, serif;
-    height: 53px;
-    left: 495px;
-    padding: 15px 363px 14px 18px;
-    position: absolute;
-    width: 456px;
+    opacity: 0.7;
 }
+
+.subtitle12 textarea.input-field:focus {
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 5px rgba(233, 145, 108, 0.5);
+}
+
+.subtitle13 input.input-field {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    padding: 10px 290px 12px 10px;
+    font: 300 15px/1.2 "Inter", Helvetica, Arial, serif;
+    right: -488px;
+    top: -44px;
+    position: relative;
+    width: 155px;
+}
+
+.subtitle13 input.input-field::placeholder {
+    color: #e9916c;
+    opacity: 0.7;
+}
+
+.subtitle13 input.input-field:focus {
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 5px rgba(233, 145, 108, 0.5);
+}
+
 .highlight2 {
     border-radius: 15px 15px 15px 15px;
+    bottom: 0;
     color: #e9916c;
     display: flex;
     font: 600 16px/1.5 "Poppins", Helvetica, Arial, serif;
+    height: 42px;
     justify-content: center;
-    margin: 0 0 0 auto;
     padding: 8px 76.5px 10px 77.5px;
+    position: absolute;
+    right: 0;
     text-align: center;
     width: 213px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+    border: none;
+}
+.highlight2:hover {
+    background-color: #e9916c;
+    color: white;
+    border: 2px solid #fff;
 }
 .section4 {
     display: flex;
@@ -459,7 +599,7 @@
     left: 962px;
     position: absolute;
     right: 0;
-    top: 233px;
+    top: 135px;
     width: 278px;
     color: #fff;
     background-color: #fff;
@@ -595,7 +735,7 @@
 
 .subtitle-checkbox {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
     cursor: pointer;
     color: #e9916c;
 }
@@ -613,7 +753,8 @@
     background-color: white;
     border: 2px solid #e9916c;
     box-sizing: border-box;
-    margin-right: 5px;
+    margin-right: 15px;
+    margin-top: -2px;
 }
 
 .checkbox:checked + .subtitle-checkbox::before {

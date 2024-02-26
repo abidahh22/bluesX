@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +18,7 @@
             href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
             rel="stylesheet">
     </head>
+
     <body>
         <nav>
             <img src="{{ asset('asset/bluexlogo.png') }}" alt="logo" id="logo">
@@ -41,9 +43,7 @@
             <p>Unlock valuable insights on effective parenting strategies, ensuring a
                 harmonious and joyful family atmosphere through expert advice and thoughtful
                 guidance.</p>
-            <button class="button">
-                Submit
-            </button>
+            <button class="button3">More Info</button>
         </div>
 
         <div class="flower"></div>
@@ -53,9 +53,7 @@
         <div class="flower blue1"></div>
         <div class="flower green"></div>
 
-        <div class="colored-box">
-            <img src="{{ asset('asset./or.png') }}"/>
-        </div>
+        <div class="colored-box"></div>
 
         <div class="circle-container">
             <div class="circle">
@@ -90,6 +88,7 @@
                 dipercaya, dan temukan komunitas orangtua yang saling mendukung di dalam bluesX.
                 Selamat menemukan berbagai aspek parenting bersama kami!
             </p>
+            
         </div>
 
         <div class="flower red" style="margin-top: -1000px;"></div>
@@ -107,6 +106,7 @@
             <div class="section41">
                 <div class="flex_row">
                     <h2>OUR BEST MENU</h2>
+                    <button class="button3">More Info</button>
                 </div>
                 <div class="wrapper">
                     <div class="wrapper1">
@@ -154,80 +154,40 @@
                             </h4>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
 
         <section class="section5">
             <div class="section51">
-                <div class="flex_row1">
-                    <h2>MOST SEARCHED PRODUCT</h2>
+                <div class="flex_row_right">
+                    <h2>MOST ORDERED PRODUCT</h2>
+                    <button class="button3">More Info</button>
                 </div>
-                <div class="content_box10">
-                    <div class="flex_row2">
-                        <div class="wrapper10">
-                            <img
-                                class="image125"
-                                src="https://cloud.jpnn.com/photo/arsip/watermark/2020/12/22/cussons-baby-powder-foto-dok-cussons-baby-85.png"
-                                alt="alt text"/>
-                            <div class="content_box11">
-                                <img
-                                    class="image12"
-                                    src="{{ asset('asset/golden_star_icon.png')}}"
-                                    alt="alt text"/>
-                                <div class="content_box6">
-                                    <h3 class="subtitle11">4.9</h3>
-                                    <h2 class="medium_title21">Pigeon</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrapper10">
-                            <div class="flex_row3">
-                                <h2 class="medium_title22">Cussons baby</h2>
-                                <img class="image121" src="./assets/golden_star_icon.png" alt="alt text"/>
-                                <h3 class="subtitle12">4.9</h3>
-                            </div>
+                <div class="wrapper">
+                    <div class="wrapper1">
+                        <div class="flex_col1">
+                            <h2 class="medium_title4">Pigeon</h2>
                         </div>
                     </div>
-                    <div class="flex_row4">
-                        <div class="wrapper11" style="--src:url(../assets/baby_diapers_packaging.png)">
-                            <div
-                                class="content_box12"
-                                style="--src:url(../assets/peach_semi_circle_top.png)">
-                                <div class="content_box61">
-                                    <h3 class="subtitle13">4.9</h3>
-                                    <img class="image122" src="./assets/golden_star_icon.png" alt="alt text"/>
-                                    <h2 class="medium_title23">Marries</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrapper12" style="--src:url(../assets/baby_cereal_boxes.png)">
-                            <div
-                                class="content_box121"
-                                style="--src:url(../assets/orange_bottom_curve.png)">
-                                <div class="content_box62">
-                                    <h3 class="subtitle14">4.9</h3>
-                                    <img class="image122" src="./assets/golden_star_icon.png" alt="alt text"/>
-                                    <h2 class="medium_title24">Milna</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wrapper11" style="--src:url(../assets/natural_baby_care_set.png)">
-                            <div
-                                class="content_box122"
-                                style="--src:url(../assets/orange_bottom_curve.png)">
-                                <div class="content_box63">
-                                    <h3 class="subtitle15">4.9</h3>
-                                    <img class="image122" src="./assets/golden_star_icon.png" alt="alt text"/>
-                                    <h2 class="medium_title21">Pigeon</h2>
-                                </div>
-                            </div>
+                    <div class="wrapper2">
+                        <div class="flex_col2">
+                            <h2 class="medium_title5">Johnson's Baby</h2>
                         </div>
                     </div>
+                    
                 </div>
-            </div>
-        </section>
 
-    </body>
-</html>
+                <div class="wrapper8">
+                    <div class="wrapper4">
+                        <div class="flex_col4">
+                            <h2 class="medium_title6">Zwitsal</h2>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </body>
+
+    </html>
